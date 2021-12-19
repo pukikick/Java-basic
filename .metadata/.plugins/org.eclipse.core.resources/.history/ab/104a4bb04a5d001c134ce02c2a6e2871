@@ -1,0 +1,8 @@
+package game.inheritance;
+
+public class Warrior extends Commoner { // extends 상속
+	public Warrior(String pDam) {
+		super(pDam);
+		System.out.println("물리데미지 : "+pDam);
+	}
+}

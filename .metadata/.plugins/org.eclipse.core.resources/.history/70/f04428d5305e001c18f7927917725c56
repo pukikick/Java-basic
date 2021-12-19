@@ -1,0 +1,5 @@
+package game.interaction;
+// 골렘 생성
+public class Golem {
+
+}

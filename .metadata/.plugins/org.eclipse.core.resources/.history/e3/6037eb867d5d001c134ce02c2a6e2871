@@ -1,0 +1,8 @@
+package game.accessmodifier;
+
+public class Warrior extends Commoner {
+	
+	public Warrior(String name) {
+		super (name);
+	}
+}

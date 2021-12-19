@@ -1,0 +1,31 @@
+package interaction;
+
+public class Seller {
+	private int money;
+	private int mango;
+	
+	public Seller() {
+		int money = 0;
+		int mango;
+	}
+	public static void main(String[] args) {
+		System.out.println("망고 갯 수 : "+mango);
+	}
+	
+	public void sellMango(int mango) {
+		money = (money * mango) - mango;
+		if (mango<=0) {
+			System.out.println("망고가 모자랍니다.");
+			return;
+		}
+	}
+	
+	public void showSeller() {
+		System.out.println("현재 소지금 : "+money);
+		System.out.println("망고 개수 : "+mango);
+	}
+	public void getMango() {
+		
+	}
+
+}

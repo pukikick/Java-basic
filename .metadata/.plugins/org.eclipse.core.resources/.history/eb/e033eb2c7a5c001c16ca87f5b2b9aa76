@@ -1,0 +1,7 @@
+package owerriding;
+
+public class Pig extends Animal {
+	
+	public int weight;
+
+}

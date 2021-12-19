@@ -1,0 +1,6 @@
+package polymorphism;
+
+// Person 상속
+public class Developer extends Person {
+
+}

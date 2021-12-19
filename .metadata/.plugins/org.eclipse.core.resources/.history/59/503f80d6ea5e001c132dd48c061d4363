@@ -1,0 +1,13 @@
+package polymorphism;
+
+// Person 상속
+public class Developer extends Person {
+	
+	// 개발언어
+	private String devLang;
+	
+	public Developer (String name, int age, String devLang) {
+		super(name,age);
+		this.devLang = devLang;
+	}
+}

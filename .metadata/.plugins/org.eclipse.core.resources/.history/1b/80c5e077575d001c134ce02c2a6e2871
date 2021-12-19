@@ -1,0 +1,10 @@
+package game.inheritance;
+
+public class Archer extends Commoner {
+	private int rDam;
+	
+	public Archer (String name) {
+		super (name);
+		this.rDam = 29;
+	}
+}

@@ -1,0 +1,12 @@
+package owerriding;
+
+public class Animal {
+	
+	public String Animal;
+	public String name;
+	public int age;
+	
+	public void howl() {
+		System.out.println("동물이 웁니다.");
+	}
+}

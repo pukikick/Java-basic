@@ -1,0 +1,11 @@
+package polymorphism;
+
+public class PetCakeCooker extends Person {
+	
+	private String ingre;
+	
+	public PetCakeCooker (String name, int age, String ingre) {
+		super(name, age);
+		this.ingre = ingre
+	}
+}

@@ -1,0 +1,9 @@
+package game.interaction;
+// Warrior에 huntTroll을 만들어주세요.
+// Troll 클래스를 생성해주시고
+// 생성된 트롤과 전사가 상호작용하게 해 주시고
+// Main02에서 둘을 상호작용도 시켜보세요.
+
+public class Troll {
+
+}

@@ -1,0 +1,13 @@
+package game.inheritance;
+
+public class Main02 { 
+	// 순서
+	// main7 > Warrior9 > Commoner12~18 > Warrior10 > main7
+	public static void main(String[] args) {
+		// Warrior 생성을 하나 해 주세요.
+		Warrior w1 = new Warrior ("신은택");
+		// 정보 조회를 해보시고, 호출번호도 고려해보세요.
+		w1.getInfo();
+	}
+
+}
