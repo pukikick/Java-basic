@@ -1,7 +1,0 @@
-package owerriding;
-
-public class Horse extends Animal { // Animal에 특성이 들어있다.
-	
-	public int rank;
-
-}

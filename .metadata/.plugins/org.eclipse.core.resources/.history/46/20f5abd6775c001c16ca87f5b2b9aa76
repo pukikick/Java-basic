@@ -1,7 +1,0 @@
-package owerriding;
-
-public class Pig extends Animal {
-	
-	private 
-
-}
