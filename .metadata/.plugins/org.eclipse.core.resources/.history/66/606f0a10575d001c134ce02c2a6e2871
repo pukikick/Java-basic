@@ -1,9 +1,0 @@
-package game.inheritance;
-
-public class Magician extends Commoner {
-	private int mDam;
-	
-	public Magician (String name) {
-		super(name);
-	}
-}

@@ -1,8 +1,0 @@
-package game.inheritance;
-// Commoner을 상속한 Warrior 직업군을 정의 
-public class Warrior extends Commoner { // extends 상속 Commoner에 내용을 상속받습니다.
-	public Warrior(String pDam) {
-		super(pDam);
-		System.out.println("물리데미지 : "+pDam);
-	}
-}

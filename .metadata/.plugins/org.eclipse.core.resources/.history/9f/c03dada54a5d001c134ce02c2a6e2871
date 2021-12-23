@@ -1,8 +1,0 @@
-package game.inheritance;
-
-public class Warrior extends Commoner {
-	public Warrior(String pDam) {
-		super(pDam);
-		System.out.println("물리데미지 : "+pDam);
-	}
-}
