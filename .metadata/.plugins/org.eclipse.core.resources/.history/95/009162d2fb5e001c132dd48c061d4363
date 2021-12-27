@@ -1,6 +1,0 @@
-package game.polymorphism;
-
-// Monster를 상속해주세요.
-public class Orc {
-
-}
