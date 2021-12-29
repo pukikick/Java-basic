@@ -25,8 +25,8 @@ public class Lotto01 {
 			if(!lotto.contains(getNum)) {
 				// 추가하기
 				lotto.add(getNum);
+				}
 			}
-		}
 		// 다 돌면 정렬하기
 		Collections.sort(lotto);
 		// 추첨번호 보여주기
