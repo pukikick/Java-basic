@@ -18,7 +18,8 @@ public class Lotto01 {
 		// 로또번호를 받을 수 있는 변수 생성 후 0으로 초기화
 		int getNum = 0;
 		// while문 조건은 번호를 담은 ArrayList의 내부 요소 개수가 6이 되면 종료되도록
-		while(lotto.size() != 6) {
+		// while(조건식)
+		while(lotto.size() != 6) { // A != B 두 피연산자의 값이 다른지 검사
 			// 번호 뽑기
 			getNum = (int)(Math.random()*45)+1;
 			// 번호가 만약 기존에 뽑은 번호 목록에 포함되어있지 않다면
@@ -27,7 +28,7 @@ public class Lotto01 {
 				lotto.add(getNum);
 				}
 			}
-		// 다 돌면 정렬하기
+		// 다 돌면 정렬하기 (내림차순)
 		Collections.sort(lotto);
 		// 추첨번호 보여주기
 		System.out.println("추첨된 번호 : "+ lotto);
